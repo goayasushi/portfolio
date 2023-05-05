@@ -8,25 +8,28 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Hello, world!</title>
+    <title>Goa Portfolio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">私について</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">できること</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">制作例</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">お問い合わせ</a>
             </li>
           </ul>
         </div>
@@ -35,29 +38,121 @@
 
     <section class="top py-5 text-white">
       <div class="container">
-        <h1 class="text-center">portfolio</h1>
-        <p class="text-center lead">ご覧いただきありがとうございます!</p>
+        <h1 class="text-center">Portfolio</h1>
+        <p class="text-center lead">ポートフォリオをご覧いただきありがとうございます!</p>
       </div>
     </section>
 
-    <section class="about">
-
+    <section class="about py-5">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">私について</h2>
+        <p class="text-center lead">about me</p>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/top.jpg" class="w-100" alt="">
+          </div>
+          <div class="col-md-6 text-center">
+            <h5 class="font-weight-bold">あとやす</h5>
+            <p>
+              東京都在住。趣味はサウナです。<br><br>
+              webエンジニアを目指して活動中です。<br><br>
+              HP制作とアプリ制作を行なっております。<br><br>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     
-    <section class="service">
+    <!-- <section class="service bg-light py-5">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">できること</h2>
+        <p class="text-center lead mb-3">Service</p>
+        <div class="card-deck">
+          <div class="card">
+            <img src="./img/top.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/top.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/top.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="work bg-light py-5">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">制作物</h2>
+        <p class="text-center lead mb-3">Work</p>
+        <div class="card-deck">
+          <div class="card">
+            <img src="./img/top.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Furima</h5>
+              <p class="card-text">
+                ユーザー機能、商品の出品・表示・編集・削除・購入が行えるフリマアプリ。<br>
+                アプリケーションの詳細については、googleドキュメントに記載しております。
+              </p>
+              <div><a href="https://docs.google.com/document/d/173ipI7p_iaoNaE49usU--m4qYZuQtr3us5NlG3lvGQw/edit#heading=h.dudefr7d7aao" class="card-link">googleドキュメントを見る</a></div>
+              <div><a href="http://176.34.55.112/" class="card-link">サイトを見る</a></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/top.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Zaiko</h5>
+              <p class="card-text">
+                製造業における部品の入出庫・在庫を管理できるアプリ。<br>
+                アプリケーションの詳細については、READMEに記載しております。
+              </p>
+              <div><a href="https://github.com/goayasushi/zaiko#readme" class="card-link">READMEを見る</a></div>
+              <div><a href="https://zaiko.onrender.com" class="card-link">サイトを見る</a></div>           
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contct bg-light py-5">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">お問い合わせ</h2>
+        <p class="text-center lead">Contact</p>
+        <h5 class="text-center mb-3">「メール」または「Twitter」よりお気軽にご相談ください！</h5>
+        <div class="row text-center justify-content-md-center">
+          <div class="col-md-4 ">
+            <img src="./img/email.png" class="img-fluid mb-3"  alt="Responsive image">
+            <div><a href="#">info-****@gmail.com</a></div>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/twitter.png" class="img-fluid mb-3" alt="">
+            <div><a href="#">@example</a></div>
+          </div>
+          
+        </div>
+      </div>
 
     </section>
 
-    <section class="work">
-
-    </section>
-
-    <section class="contct">
-
-    </section>
-
-    <footer>
-      
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="text-white text-center m-0">© 2023 yasushi goa</p>
+      </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
